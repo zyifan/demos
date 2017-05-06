@@ -1,0 +1,26 @@
+::selection  { background:none; color:#333; }
+::-moz-selection { background:none; color:#333; }
+::-webkit-selection { background:none; color:#333;}
+html,body{padding: 0;margin: 0;height: 100%;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+body{
+	background-image:url('imgs/002.png');
+	background-color:#FCFCFC;
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-attachment: fixed;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{zoom: 1;}
